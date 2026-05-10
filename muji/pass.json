@@ -1,0 +1,65 @@
+{
+  "formatVersion": 1,
+  "passTypeIdentifier": "pass.mk.local",
+  "teamIdentifier": "9733K94JUG",
+  "serialNumber": "B764E271A45796EF",
+  "organizationName": "無印良品 MUJI 會員卡",
+  "description": "Apple Wallet Pass 项目",
+  "foregroundColor": "rgb(255, 255, 255)",
+  "backgroundColor": "rgb(15, 23, 42)",
+  "labelColor": "rgb(148, 163, 184)",
+  "generic": {
+    "headerFields": [
+      {
+        "key": "h1",
+        "label": "Credit",
+        "value": "$120"
+      }
+    ],
+    "primaryFields": [
+      {
+        "key": "p1",
+        "label": "Member",
+        "value": "Holder 7031"
+      }
+    ],
+    "secondaryFields": [
+      {
+        "key": "s1",
+        "label": "Tier",
+        "value": "Platinum"
+      },
+      {
+        "key": "s2",
+        "label": "Member ID",
+        "value": "VS-001428"
+      }
+    ],
+    "auxiliaryFields": [
+      {
+        "key": "a1",
+        "label": "Visits",
+        "value": "24"
+      }
+    ],
+    "backFields": [
+      {
+        "key": "b1",
+        "label": "Terms",
+        "value": "Membership is non-transferable. Cancellation requires 30 days written notice.",
+        "dataDetectorTypes": []
+      }
+    ]
+  },
+  "logoText": "無印良品 MUJI 會員卡",
+  "barcodes": [
+    {
+      "format": "PKBarcodeFormatQR",
+      "message": "VS-001428",
+      "messageEncoding": "iso-8859-1",
+      "altText": "VS-001428"
+    }
+  ],
+  "webServiceURL": "https://example.invalid/passkit",
+  "authenticationToken": "0000000000000000"
+}
